@@ -1,0 +1,62 @@
+h1
+{
+    color:#008000;
+}
+h2
+{
+    color:#808000;
+}
+.menu 
+{
+    padding-right: 20px;
+    display:flex;
+    justify-content:space-between;
+    background-color: #D3D3D3;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+
+.grid 
+{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.origami
+{
+    border:5px solid #d8bfd8 ;
+    border-radius: 20px;
+    width: 310px;
+    font-family:'Courier New', Courier, monospace;
+    position:relative;
+}
+
+.grid img
+{
+    border: 2px solid #d8bfd8 ;
+    border-radius: 50px;
+}
+
+a:link
+{
+    color: #008000;
+    text-decoration:none;
+}
+
+a:visited
+{
+    color: #808000;
+    text-decoration:none;
+}
+
+.oragami:hover img
+{
+    transform: scale(5);
+}
+
+.oragami p
+{
+    position:absolute;
+}
